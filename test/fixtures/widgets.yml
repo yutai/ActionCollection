@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  favorite: false
+  price: 1.5
+  ranking: 1
+
+two:
+  name: MyString
+  favorite: false
+  price: 1.5
+  ranking: 1

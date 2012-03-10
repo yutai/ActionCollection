@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @widget.name %>
+</p>
+
+<p>
+  <b>Favorite:</b>
+  <%= @widget.favorite %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @widget.price %>
+</p>
+
+<p>
+  <b>Ranking:</b>
+  <%= @widget.ranking %>
+</p>
+
+
+<%= link_to 'Edit', edit_widget_path(@widget) %> |
+<%= link_to 'Back', widgets_path %>
